@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock App</title>
+
+    <link rel="stylesheet" href="{{url_for('static', filename ='css/about.css')}}">
+    </style>
+  </head>
+
+  <body>
+    <div class="side">
+      <div class="logo">
+        <a href="/">BROKR</a>
+      </div>
+        <a href="/">Home</a>
+        <a href="about">About</a>
+        <a href="author">Author</a>
+    
+    </div>
+   
+    <div class="about_main" >
+      <div  class="head">
+        <p>About</p>
+      </div>
+        <div class="about">
+          <p>
+            The projet goal is to predict stock prices using deep learning. The deep learning algorithm is based on the LSTM based Recurrent Neural Network.
+            Current model was only trained on the IBM stock data and app itself only shows the prediction for that stock.
+            The test result of model is shown in the belowmentioned figure.
+            In the next phase of the project it is aimed to have an application which can predict other stocks as well with high accuracy.
+        </p>
+
+        <img src="..\static\stock_test.png">
+        </div>
+    </div>
+  </body>
+
+</html>

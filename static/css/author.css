@@ -1,0 +1,93 @@
+body{
+    background-color: darkcyan;
+  }
+  .side {    height: 100%; 
+    width: 250px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden;
+    padding-top: 15px;
+  }
+  
+  
+  .side a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    
+  }
+  
+  
+  
+  .logo a{
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #901176;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .side a:hover {
+    color: #901176;
+  
+  }
+  
+    .author_main {
+      margin-left: 250px; 
+      padding: 0px 10px;
+  
+    }
+  
+    .author{
+      width: 60%;
+      height: 50%;
+      margin: auto;
+      margin-top: 10px;
+      color: black;
+      padding: 10px;
+      border-radius: 10px;
+  
+    }
+    .author img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .author p{
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .links{
+      width: 100%;
+      text-align: center;
+      
+    }
+    .links a{
+        padding: 5px;
+        font-size: 40px; 
+        color: black;
+    
+    }
+  
+    .head{
+      margin: auto;
+      margin-left: 20%;
+      font-size: 35px;
+      font-weight: bold;
+      
+    }
+   
+    

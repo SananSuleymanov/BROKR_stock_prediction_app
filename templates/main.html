@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+
+
+  <body>
+    
+    <div class="side">
+      <div class="logo">
+        <a href="/">BROKR</a>
+      </div>
+      <a href="about">About</a>
+      <a href="author">Author</a>
+
+    </div>
+
+    <div class="main"> 
+      <p>IBM stock: {{current_value}}$</p>
+      <p>Next prediction: {{prediction}}$</p>
+      <form method="post" action="/">
+        <input class="bt1" type="submit" value="PREDICT" name="pr">
+      </form>
+      <div>
+        <div id="graph" class="gr"></div>
+      </div>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+       <script>
+       var graph1 = {{graph | safe}};
+       Plotly.plot('graph', graph1);
+       </script> 
+    </div>
+
+  </body>
+</html>

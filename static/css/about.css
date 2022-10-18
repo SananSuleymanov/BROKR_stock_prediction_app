@@ -1,0 +1,66 @@
+body{
+  background-color: darkcyan;
+}
+.side {    height: 100%; 
+  width: 250px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden;
+  padding-top: 15px;
+}
+
+
+.side a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  
+}
+
+
+
+.logo a{
+  padding-left: 15px;
+  padding-bottom: 20px;
+  font-size: 50px;
+  color: #901176;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block;
+}
+
+.side a:hover {
+  color: #901176;
+
+}
+
+  .about_main {
+    margin-left: 250px; 
+    padding: 0px 10px;
+
+  }
+
+  .about{
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+
+  .head{
+    margin: auto;
+    margin-left: 20%;
+    font-size: 35px;
+    font-weight: bold;
+    
+  }
