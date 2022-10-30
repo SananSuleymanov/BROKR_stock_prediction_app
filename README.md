@@ -6,3 +6,5 @@ The projet goal is to predict stock prices using deep learning. The deep learnin
 The repository contains training folder which has the dataset and also, python notebook for training. 
 For running the application it needs to run app.py main file which is developed using Flask framework.
 Web application itself is deployed on Heroku and if you want to check, you can use this link: https://brokr-app.herokuapp.com/
+
+![content_image](https://github.com/SananSuleymanov/BROKR_stock_prediction_app/blob/342d40b00eb7d21db1f52a8c1c077f41a0107896/brokr.PNG)
